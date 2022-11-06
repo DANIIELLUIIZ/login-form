@@ -96,7 +96,7 @@ main h2::before {
   cursor: pointer;
   padding: 0.5rem;
   background: linear-gradient(to left, rgb(11, 2, 54), rgb(34, 3, 3));
-  margin-top: 1rem;
+  margin: 0.8rem auto;
   color: white;
   font-weight: 300;
   transition: 0.4s;
@@ -109,12 +109,16 @@ main h2::before {
   color: white;
   font-weight: 300;
 }
+.form-login span {
+  text-align: center;
+  margin: 0.5rem;
+  font-size: 12px;
+}
 
 #register {
   cursor: pointer;
   padding: 0.5rem;
   background: linear-gradient(to left, rgb(11, 2, 54), rgb(34, 3, 3));
-  margin-top: 1rem;
   color: white;
   font-weight: 300;
   transition: 0.4s;
