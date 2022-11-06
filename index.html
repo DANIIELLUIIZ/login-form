@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="./script.js" defer></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <main id="container">
+      <h2>Login</h2>
+      <form class="form-login" action="">
+        <div class="input-field">
+          <input id="username" type="text" name="usarname" placeholder="Enter Your Usarname" autocomplete="off" />
+          <div class="underline"></div>
+        </div>
+        <div class="input-field">
+          <input id="password" type="password" name="password" placeholder="Enter Your Password" autocomplete="off" />
+          <div class="underline"></div>
+        </div>
+        <input id="login-btn"type="submit" value="Continue" />
+       <button id="register">Cadastrar</button>
+      </form>
+      <div class="footer">
+        <span>Or Connect whith social Media</span>
+        <div class="social-fields">
+          <div class="social-field-twitter">
+            <a href="#">
+              <i class="fa-brands fa-twitter"></i>
+              Sign in with Twitter
+            </a>
+          </div>
+          <div class="social-field-facebook">
+            <a href="#">
+              <i class="fa-brands fa-facebook-f"></i>
+              Sign in with Facebook
+            </a>
+          </div>
+          <div class="social-field-google">
+            <a href="#">
+              <i class="fa-brands fa-google"></i>
+              Sign in with Google
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
