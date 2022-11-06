@@ -96,7 +96,7 @@ main h2::before {
   cursor: pointer;
   padding: 0.5rem;
   background: linear-gradient(to left, rgb(11, 2, 54), rgb(34, 3, 3));
-  margin: 0.8rem auto;
+  margin: 0.5rem auto;
   color: white;
   font-weight: 300;
   transition: 0.4s;
@@ -114,22 +114,10 @@ main h2::before {
   margin: 0.5rem;
   font-size: 12px;
 }
-
-#register {
-  cursor: pointer;
-  padding: 0.5rem;
-  background: linear-gradient(to left, rgb(11, 2, 54), rgb(34, 3, 3));
-  color: white;
-  font-weight: 300;
-  transition: 0.4s;
-}
-#register:hover {
-  cursor: pointer;
-  padding: 0.5rem;
-  letter-spacing: 1.5px;
-  background: linear-gradient(to right, rgb(11, 2, 54), rgb(34, 3, 3));
-  color: white;
-  font-weight: 300;
+.register-box {
+  display: flex;
+  width: 100%;
+  height: 2.2rem;
 }
 
 .footer {
@@ -137,11 +125,11 @@ main h2::before {
   width: 100%;
   flex-direction: column;
   align-items: center;
-  margin-top: 0.5rem;
+  margin-top: 0.2rem;
 }
 
 .footer span {
-  margin: 1.25rem 0;
+  margin: 1rem 0;
   font-size: 12px;
 }
 .social-fields {
@@ -164,7 +152,7 @@ main h2::before {
 
 .social-field-twitter {
   background: linear-gradient(to right, rgb(2, 49, 159), rgb(8, 92, 247));
-   transition: 0.3s;
+  transition: 0.3s;
 }
 .social-field-twitter:hover {
   letter-spacing: 1px;
@@ -191,6 +179,21 @@ main h2::before {
 }
 .social-field-google a i {
   color: rgb(0, 68, 3);
+}
+
+#register {
+  cursor: pointer;
+  display: flex;
+
+  font-size: 12px;
+  margin-top: 0.8rem;
+  padding: 0.5rem;
+
+  transition: 0.2s;
+}
+#register:hover {
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .hide {
