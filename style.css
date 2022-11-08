@@ -198,9 +198,6 @@ main > h2::before {
   font-size: 14px;
   font-weight: 400;
 }
-.register-form {
-  transition: .3s;
-}
 
 .register-form > h2 {
   width: 100%;
