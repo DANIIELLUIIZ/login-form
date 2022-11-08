@@ -36,7 +36,7 @@ main > h2 {
   margin: 0.5rem auto;
 }
 
-main h2::before {
+main > h2::before {
   content: '';
   position: absolute;
   height: 2px;
@@ -46,11 +46,14 @@ main h2::before {
   background: linear-gradient(45deg, rgb(163, 4, 4), rgb(34, 3, 3));
 }
 
-.form-login {
+.form-login,
+.register-form,
+.register-address {
   display: flex;
   flex-direction: column;
 }
-.form-login input {
+.form-login input,
+.register-form input {
   height: 2.5rem;
   width: 100%;
   padding: 0rem 0.5rem;
@@ -194,6 +197,59 @@ main h2::before {
 #register:hover {
   font-size: 14px;
   font-weight: 400;
+}
+.register-form {
+  transition: .3s;
+}
+
+.register-form > h2 {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  padding: 0.5rem 0;
+  margin-bottom: 0.5rem;
+}
+
+.register-form span {
+  font-size: 12px;
+  margin-top: 0.5rem;
+  color: rgb(113, 111, 111);
+}
+.register-form p {
+  font-size: 14px;
+  margin-top: 0.5rem;
+  color: rgb(113, 111, 111);
+}
+
+.register-form input {
+  background-color: rgb(240, 239, 239);
+  margin-top: 0.2rem;
+}
+
+.register-form-buttons {
+  display: flex;
+  width: 100%;
+  align-content: center;
+  justify-content: space-between;
+}
+.register-form-buttons button {
+  display: flex;
+  width: 8rem;
+  height: 1.7rem;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+  padding: 0.5rem;
+  background: linear-gradient(to left, rgb(11, 2, 54), rgb(34, 3, 3));
+  margin-top: 1rem;
+  color: white;
+  font-weight: 300;
+  transition: 0.4s;
+}
+.register-form-buttons button:hover {
+  letter-spacing: 0.1rem;
+  background: linear-gradient(to right, rgb(11, 2, 54), rgb(34, 3, 3));
 }
 
 .hide {
